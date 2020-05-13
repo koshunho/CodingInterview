@@ -1,5 +1,6 @@
 package com.coding;
-//写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项。斐波那契数列的定义如下：
+//10.斐波那契数列
+// 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项。斐波那契数列的定义如下：
 //
 //F(0) = 0,   F(1) = 1
 //F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
@@ -18,7 +19,7 @@ package com.coding;
 //输入：n = 5
 //输出：5
 //
-public class fib_10 {
+public class Fib_10 {
     public int fib(int n) {
         if(n <= 1) return n;
         int [] dp = new int [n+1];

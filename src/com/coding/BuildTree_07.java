@@ -1,5 +1,6 @@
 package com.coding;
-//输入某二叉树的前序遍历和中序遍历的结果，请重建该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
+//7. 重建二叉树
+// 输入某二叉树的前序遍历和中序遍历的结果，请重建该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
 //
 // 
 //
@@ -18,7 +19,7 @@ package com.coding;
 
 import java.util.HashMap;
 
-public class buildTree_07 {
+public class BuildTree_07 {
     public class TreeNode {
         int val;
         TreeNode left;
