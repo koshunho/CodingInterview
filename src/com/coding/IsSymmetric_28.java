@@ -29,12 +29,6 @@ package com.coding;
 //输出：false
 
 public class IsSymmetric_28 {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public boolean isSymmetric(TreeNode root) {
         return helper(root, root);
     }

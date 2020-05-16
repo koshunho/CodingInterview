@@ -12,17 +12,7 @@ import java.util.Stack;
 //输入：head = [1,3,2]
 //输出：[2,3,1]
 
-
-
-
 public class ReversePrint_06 {
-    // * Definition for singly-linked list.
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
-
     public int[] reversePrint(ListNode head) {
         Stack<Integer> stack = new Stack();
         while(head != null){

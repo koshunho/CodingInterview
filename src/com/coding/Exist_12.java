@@ -20,7 +20,6 @@ package com.coding;
 //输出：false
 //
 public class Exist_12 {
-    class Solution {
         int [] upDown = new int [] {1, 0, -1, 0};
         int [] leftRight = new int [] {0, 1, 0, -1};
         public boolean exist(char[][] board, String word) {
@@ -48,7 +47,6 @@ public class Exist_12 {
 
             return false;
         }
-    }
 }
 //思路：常规的回溯。
 //递归退出：数组越界、值不符合

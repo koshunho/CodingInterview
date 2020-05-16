@@ -11,11 +11,6 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class MergeTwoLists_25 {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         PriorityQueue<ListNode> pq = new PriorityQueue(new Comparator<ListNode>(){
             public int compare(ListNode o1, ListNode o2){

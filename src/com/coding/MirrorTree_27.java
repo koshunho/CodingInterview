@@ -19,12 +19,6 @@ package com.coding;
 //
 
 public class MirrorTree_27 {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public TreeNode mirrorTree(TreeNode root) {
         if(root == null) return null;
         TreeNode left = mirrorTree(root.left);   //假设以root.left为根节点的树全部镜像转好了

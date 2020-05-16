@@ -11,11 +11,6 @@ package com.coding;
 //输出: 5->4->3->2->1->NULL
 //
 public class ReverseList_24 {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x;}
-    }
     public ListNode reverseList(ListNode head) {
         if(head == null || head.next == null) return head;
         ListNode newHead = reverseList(head.next);

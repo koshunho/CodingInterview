@@ -20,12 +20,6 @@ package com.coding;
 import java.util.HashMap;
 
 public class BuildTree_07 {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     int preorderIndex = 0;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         int len = inorder.length;

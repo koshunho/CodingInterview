@@ -26,12 +26,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class LevelOrder_32_3 {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public List<List<Integer>> levelOrder(TreeNode root) {
         List <List<Integer>> ans = new ArrayList();
         helper(root, ans, 0);

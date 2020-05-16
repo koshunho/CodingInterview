@@ -12,11 +12,6 @@ package com.coding;
 //
 
 public class GetKthFromEnd_22 {
-    public class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-    }
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode fast = new ListNode(-1);
         fast.next = head;

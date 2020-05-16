@@ -22,11 +22,6 @@ package com.coding;
 //题目保证链表中节点的值互不相同
 //
 public class DeleteNode_18 {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
     public ListNode deleteNode(ListNode head, int val) {
         ListNode dummyNode = new ListNode(-1);
         ListNode newHead = dummyNode, pre = dummyNode;

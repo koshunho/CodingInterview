@@ -21,12 +21,6 @@ import java.util.List;
 //[3,9,20,15,7]
 //
 public class LevelOrder_32_1 {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public int[] levelOrder(TreeNode root) {
         List <List<Integer>> lists = new ArrayList();
         helper(root, lists, 0);
